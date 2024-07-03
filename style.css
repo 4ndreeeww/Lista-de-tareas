@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f6f6e2;
+}
+
+
+h1 {
+    color: #5f3711;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 4rem;
+    text-shadow: 0 0 3px #5f3711;
+}
+
+form {
+    width: 580px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+form textarea {
+    background-color: #d4c098;
+    color: #5f3711;
+    border-style: none;
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px #d4c098;
+}
+
+form textarea::placeholder {
+    color: #f7f6e4;
+}
+
+form textarea:focus {
+    outline: none;
+}
+
+form input[type="submit"] {
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    color: #5f3711;
+    transition: .5s;
+    background-color: #e2d5c1;
+}
+
+form input[type="submit"]:hover {
+    background-color: #5f3711;
+    cursor: pointer;
+    color: white;
+    rotate: 360deg;
+}
+
+.list-container {
+    width: 580px;
+    margin: 0 auto;
+}
+
+.task-container {
+    background-color: #e2d5c1;
+    color: #5f3711;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+    box-shadow: 0 0 10px #e2d5c1;
+    border: none;
+}
+
+.task-container input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+.closeBtn {
+    width: 30px;
+    height: 30px;
+}
+
+.closeBtn:hover {
+    cursor: pointer;
+    scale: 1.2;
+}
+
+#stats {
+    margin-top: 25px;
+    font-size: 1.3em;
+    color: #d4c098;
+    text-align: center;
+}
